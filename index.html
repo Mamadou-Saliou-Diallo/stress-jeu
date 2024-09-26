@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu Deviner un Nombre</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <fieldset>Devinette
+            <div class="container">
+                <h1>Trouvez le bon Nombre !</h1>
+                <p class="tentative">Vous devez trouver un nombre entre 10 et 100. Vous n'avez que 10 essaie. </p>
+                <div class="choix">
+                    <span>Votre Choix</span> <input type="number" id="guess" min="10" max="100" placeholder="Entrez votre nombre" /><br><br>
+                </div><br>
+                <button id="submit">Devinez</button>
+                <div id="result"></div>
+                <script src="ode.js"></script>
+            </div>
+        </fieldset>
+</body>
+</html>
